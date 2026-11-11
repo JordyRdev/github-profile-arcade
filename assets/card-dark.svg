@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" font-family="ConsolasFallback,Consolas,'DejaVu Sans Mono',monospace" width="984px" height="520px" font-size="16px">
+<style>
+@font-face{src:local('Consolas'),local('Consolas Bold');font-family:'ConsolasFallback';font-display:swap;-webkit-size-adjust:109%;size-adjust:109%;}
+.text{fill:#c9d1d9;}
+.key{fill:#ffa657;}
+.value{fill:#a5d6ff;}
+.dots{fill:#616e7f;}
+.add{fill:#3fb950;}
+.dele{fill:#f85149;}
+.accent{fill:#ffa657;}
+.art{fill:#c9d1d9;}
+.cursor{animation:blink 1.1s steps(1) infinite;}
+@keyframes blink{50%{opacity:0;}}
+text,tspan{white-space:pre;}
+</style>
+<rect width="984px" height="520px" fill="#161b22" rx="15"/>
+<text x="20" y="69.0" class="art" font-size="11px">
+<tspan x="20" y="69.0">                          x#$@@$#j</tspan>
+<tspan x="20" y="82.4">                        &amp;$$@@$$$$$$$</tspan>
+<tspan x="20" y="95.8">                       @$$@@@@@@$$$$@*</tspan>
+<tspan x="20" y="109.2">                      @&amp;&amp;$@@@@@@$$$$$@</tspan>
+<tspan x="20" y="122.6">                      @&amp;&amp;&amp;$$@$$$$$$$$@</tspan>
+<tspan x="20" y="136.0">                      &amp;&amp;$&amp;&amp;&amp;&amp;&amp;$$$$$$&amp;$</tspan>
+<tspan x="20" y="149.4">                       &amp;$$$$$$$$$$$$$</tspan>
+<tspan x="20" y="162.8">                         &amp;@$$$$$@@&amp;</tspan>
+<tspan x="20" y="176.2">                            *$$x</tspan>
+<tspan x="20" y="189.6">                             %%</tspan>
+<tspan x="20" y="203.0">                             %%</tspan>
+<tspan x="20" y="216.4">                             %%</tspan>
+<tspan x="20" y="229.8">                            +%%*</tspan>
+<tspan x="20" y="243.2">                            +%%*</tspan>
+<tspan x="20" y="256.6">                           :+%%*:</tspan>
+<tspan x="20" y="270.0">                           ~+#%*~</tspan>
+<tspan x="20" y="283.4">                           +*##*+</tspan>
+<tspan x="20" y="296.8">                           +*##*+</tspan>
+<tspan x="20" y="310.2">                          -+*##*+-</tspan>
+<tspan x="20" y="323.6">                          ==+##*=+</tspan>
+<tspan x="20" y="337.0">         &#x27;,:::::,,,,,,,,,;==+#%*==;::::::::::;::;:`</tspan>
+<tspan x="20" y="350.4">        ^-********xxxxxxx*++*kkx**xjjjjjjjjjjjjxxx~,</tspan>
+<tspan x="20" y="363.8">        ^~*****************xxxxxxxxxxjjjjjjjjjjxxx+,</tspan>
+<tspan x="20" y="377.2">        ^,-----;;;;;;;;;;;;;;--------~~=kk+==*kj+=;,</tspan>
+<tspan x="20" y="390.6">        ^^^`&#x27;&#x27;......................&#x27;&#x27;;$&amp;&amp;$:~&amp;##&amp;;;:</tspan>
+<tspan x="20" y="404.0">        ^,^^``&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.......&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;``:$&amp;&amp;$,;&amp;###^;:</tspan>
+<tspan x="20" y="417.4">        ,,,,^^`````````````````````^^^^`::&#x27;,^`:,&#x27;:;:</tspan>
+<tspan x="20" y="430.8">        ,:::,,,,,,,,^^^^^^^^^,,,,,,,,:::::;;--;---;:</tspan>
+<tspan x="20" y="444.2">        ^;;;;;;;;;::::::::::::;;;;;;;;----~~~~~~---,</tspan>
+<tspan x="20" y="457.6">          ``^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</tspan>
+</text>
+<text x="392" y="30" class="text">
+<tspan x="392" y="30"><tspan class="accent">alex@dev</tspan><tspan class="text"> —————————————————————————————————————————————————</tspan></tspan>
+<tspan x="392" y="50"><tspan class="dots">. </tspan><tspan class="key">OS</tspan><tspan class="text">:</tspan><tspan class="dots"> ....................................... </tspan><tspan class="value">macOS, Linux</tspan></tspan>
+<tspan x="392" y="70"><tspan class="dots">. </tspan><tspan class="key">Uptime</tspan><tspan class="text">:</tspan><tspan class="dots"> .................... </tspan><tspan class="value">10 years, 2 months, 10 days</tspan></tspan>
+<tspan x="392" y="90"><tspan class="dots">. </tspan><tspan class="key">Host</tspan><tspan class="text">:</tspan><tspan class="dots"> .................................. </tspan><tspan class="value">Remote · Europe</tspan></tspan>
+<tspan x="392" y="110"><tspan class="dots">. </tspan><tspan class="key">Kernel</tspan><tspan class="text">:</tspan><tspan class="dots"> ........................... </tspan><tspan class="value">Full-stack Developer</tspan></tspan>
+<tspan x="392" y="130"><tspan class="dots">. </tspan><tspan class="key">IDE</tspan><tspan class="text">:</tspan><tspan class="dots"> ................................... </tspan><tspan class="value">VS Code, Neovim</tspan></tspan>
+<tspan x="392" y="150"><tspan class="dots">.</tspan></tspan>
+<tspan x="392" y="170"><tspan class="dots">. </tspan><tspan class="key">Languages</tspan><tspan class="text">.</tspan><tspan class="key">Programming</tspan><tspan class="text">:</tspan><tspan class="dots"> .......... </tspan><tspan class="value">TypeScript, Go, Python</tspan></tspan>
+<tspan x="392" y="190"><tspan class="dots">. </tspan><tspan class="key">Languages</tspan><tspan class="text">.</tspan><tspan class="key">Web</tspan><tspan class="text">:</tspan><tspan class="dots"> ................ </tspan><tspan class="value">React, Next.js, Tailwind</tspan></tspan>
+<tspan x="392" y="210"><tspan class="dots">. </tspan><tspan class="key">Languages</tspan><tspan class="text">.</tspan><tspan class="key">Real</tspan><tspan class="text">:</tspan><tspan class="dots"> ....................... </tspan><tspan class="value">English, Spanish</tspan></tspan>
+<tspan x="392" y="230"><tspan class="dots">.</tspan></tspan>
+<tspan x="392" y="250"><tspan class="dots">. </tspan><tspan class="key">Hobbies</tspan><tspan class="text">.</tspan><tspan class="key">Software</tspan><tspan class="text">:</tspan><tspan class="dots"> ............... </tspan><tspan class="value">Open source, game jams</tspan></tspan>
+<tspan x="392" y="270"><tspan class="dots">. </tspan><tspan class="key">Hobbies</tspan><tspan class="text">.</tspan><tspan class="key">Hardware</tspan><tspan class="text">:</tspan><tspan class="dots"> ................. </tspan><tspan class="value">Mechanical keyboards</tspan></tspan>
+<tspan x="392" y="290"><tspan class="dots">.</tspan></tspan>
+<tspan x="392" y="310"><tspan class="text">- Contact </tspan><tspan class="text">————————————————————————————————————————————————</tspan></tspan>
+<tspan x="392" y="330"><tspan class="dots">. </tspan><tspan class="key">Email</tspan><tspan class="text">:</tspan><tspan class="dots"> ................................ </tspan><tspan class="value">alex@example.com</tspan></tspan>
+<tspan x="392" y="350"><tspan class="dots">. </tspan><tspan class="key">Website</tspan><tspan class="text">:</tspan><tspan class="dots"> ................................... </tspan><tspan class="value">example.com</tspan></tspan>
+<tspan x="392" y="370"><tspan class="dots">.</tspan></tspan>
+<tspan x="392" y="390"><tspan class="text">- GitHub Stats </tspan><tspan class="text">———————————————————————————————————————————</tspan></tspan>
+<tspan x="392" y="410"><tspan class="dots">. </tspan><tspan class="key">Repos</tspan><tspan class="text">:</tspan><tspan class="dots"> ..... </tspan><tspan class="value">0</tspan><tspan class="text"> {</tspan><tspan class="key">Contributed</tspan><tspan class="text">: </tspan><tspan class="value">0</tspan><tspan class="text">}</tspan><tspan class="text"> | </tspan><tspan class="key">Stars</tspan><tspan class="text">:</tspan><tspan class="dots"> ............. </tspan><tspan class="value">0</tspan></tspan>
+<tspan x="392" y="430"><tspan class="dots">. </tspan><tspan class="key">Commits</tspan><tspan class="text">:</tspan><tspan class="dots"> .................... </tspan><tspan class="value">0</tspan><tspan class="text"> | </tspan><tspan class="key">Followers</tspan><tspan class="text">:</tspan><tspan class="dots"> ......... </tspan><tspan class="value">0</tspan></tspan>
+<tspan x="392" y="450"><tspan class="dots">. </tspan><tspan class="key">Lines of Code on GitHub</tspan><tspan class="text">:</tspan><tspan class="dots"> ................ </tspan><tspan class="value">0</tspan><tspan class="text"> ( </tspan><tspan class="add">0++</tspan><tspan class="text">, </tspan><tspan class="dele">0--</tspan><tspan class="text"> )</tspan></tspan>
+<tspan x="392" y="490"><tspan class="accent">&gt;</tspan> <tspan class="accent cursor">█</tspan></tspan>
+</text></svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" font-family="ConsolasFallback,Consolas,'DejaVu Sans Mono',monospace" width="984px" height="160px" font-size="16px">
+<style>
+@font-face{src:local('Consolas'),local('Consolas Bold');font-family:'ConsolasFallback';font-display:swap;-webkit-size-adjust:109%;size-adjust:109%;}
+.text{fill:#c9d1d9;}
+.key{fill:#ffa657;}
+.value{fill:#a5d6ff;}
+.dots{fill:#616e7f;}
+.add{fill:#3fb950;}
+.dele{fill:#f85149;}
+.accent{fill:#ffa657;}
+</style>
+<rect width="984px" height="160px" fill="#161b22" rx="15"/>
+<text x="20.0" y="35" class="text"><tspan class="accent">$ run-tests --owner JordyRdev</tspan><tspan class="text">                                                                     </tspan></text>
+<text x="20.0" y="55" class="text"><tspan class="text">Running 0 checks across 0 repositories</tspan></text>
+<text x="20.0" y="95" class="text"><tspan class="dots">  no CI runs found yet</tspan></text>
+<text x="20.0" y="135" class="text"><tspan class="add">0 passed</tspan><tspan class="dots"> · </tspan><tspan class="dots">0 failed</tspan><tspan class="dots"> · </tspan><tspan class="dots">0 skipped</tspan><tspan class="text">                                                        </tspan><tspan class="dots">Total: 0s</tspan></text>
+</svg>

@@ -1,0 +1,55 @@
+name: Build profile
+
+on:
+  schedule:
+    - cron: "23 5 * * *" # daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "profile.yml"
+      - "assets/photo*"
+      - "assets/*.jpg"
+      - "assets/*.jpeg"
+      - "assets/*.png"
+      - "scripts/**"
+      - "README.profile.md"
+      - ".github/workflows/arcade.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          # background removal for the portrait, only when it's switched on
+          if python -c "import yaml,sys; p=(yaml.safe_load(open('profile.yml')) or {}).get('portrait') or {}; sys.exit(0 if p.get('photo') and p.get('remove_background') else 1)"; then
+            pip install rembg onnxruntime
+          fi
+
+      - name: Build
+        # Optional: add a PROFILE_TOKEN secret (classic PAT with `repo` + `read:user`)
+        # to include private repositories in your stats.
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python scripts/build.py --fetch
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets README.md
+          git diff --cached --quiet || git commit -m "chore: rebuild profile"
+          git push
