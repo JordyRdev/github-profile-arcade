@@ -10,10 +10,10 @@
 .accent{fill:#e8590c;}
 </style>
 <rect width="1037px" height="240px" fill="#f6f8fa" rx="15"/>
-<text x="20.0" y="35" class="text"><tspan class="accent">$ run-tests --owner JordyRdev</tspan><tspan class="text">                                                      </tspan><tspan class="dots">2026-11-11 08:55 UTC</tspan></text>
+<text x="20.0" y="35" class="text"><tspan class="accent">$ run-tests --owner JordyRdev</tspan><tspan class="text">                                                      </tspan><tspan class="dots">2026-11-11 09:53 UTC</tspan></text>
 <text x="20.0" y="55" class="text"><tspan class="text">Running 5 checks across 4 repositories</tspan></text>
 <text x="39.3" y="95" class="add">✓</text>
-<text x="58.5" y="95" class="text"><tspan class="value">github-profile-arcade</tspan><tspan class="dots"> › </tspan><tspan class="text">Build profile</tspan><tspan class="dots"> ........................................... </tspan><tspan class="add"> passed</tspan><tspan class="dots">      36s</tspan></text>
+<text x="58.5" y="95" class="text"><tspan class="value">github-profile-arcade</tspan><tspan class="dots"> › </tspan><tspan class="text">Build profile</tspan><tspan class="dots"> ........................................... </tspan><tspan class="add"> passed</tspan><tspan class="dots">      39s</tspan></text>
 <text x="39.3" y="115" class="add">✓</text>
 <text x="58.5" y="115" class="text"><tspan class="value">llm-eval-security-tests</tspan><tspan class="dots"> › </tspan><tspan class="text">eval-live</tspan><tspan class="dots"> ............................................. </tspan><tspan class="add"> passed</tspan><tspan class="dots">  20m 50s</tspan></text>
 <text x="39.3" y="135" class="add">✓</text>
@@ -22,5 +22,5 @@
 <text x="58.5" y="155" class="text"><tspan class="value">playwright-typescript-portfolio</tspan><tspan class="dots"> › </tspan><tspan class="text">CI</tspan><tspan class="dots"> ............................................ </tspan><tspan class="add"> passed</tspan><tspan class="dots">   1m 48s</tspan></text>
 <text x="39.3" y="175" class="add">✓</text>
 <text x="58.5" y="175" class="text"><tspan class="value">powerbi-playwright-dashboard</tspan><tspan class="dots"> › </tspan><tspan class="text">CI</tspan><tspan class="dots"> ............................................... </tspan><tspan class="add"> passed</tspan><tspan class="dots">   3m 07s</tspan></text>
-<text x="20.0" y="215" class="text"><tspan class="add">5 passed</tspan><tspan class="dots"> · </tspan><tspan class="dots">0 failed</tspan><tspan class="dots"> · </tspan><tspan class="dots">0 skipped</tspan><tspan class="text">                                                        </tspan><tspan class="dots">Total: 34m 12s</tspan></text>
+<text x="20.0" y="215" class="text"><tspan class="add">5 passed</tspan><tspan class="dots"> · </tspan><tspan class="dots">0 failed</tspan><tspan class="dots"> · </tspan><tspan class="dots">0 skipped</tspan><tspan class="text">                                                        </tspan><tspan class="dots">Total: 34m 15s</tspan></text>
 </svg>
