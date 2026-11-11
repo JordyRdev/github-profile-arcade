@@ -28,7 +28,11 @@ ASSETS = ROOT / "assets"
 # --------------------------------------------------------------------------- #
 import yaml  # noqa: E402
 
-CONFIG = yaml.safe_load((ROOT / "profile.yml").read_text(encoding="utf-8")) or {}
+TEMPLATE_REPO = "jordyrdev/github-profile-arcade"   # the template's own live demo uses demo/profile.yml
+_demo = ROOT / "demo" / "profile.yml"
+_is_template = os.environ.get("GITHUB_REPOSITORY", "").lower() == TEMPLATE_REPO or "--demo" in sys.argv
+CONFIG_PATH = _demo if (_is_template and _demo.exists()) else ROOT / "profile.yml"
+CONFIG = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8")) or {}
 
 
 def _owner():
@@ -569,6 +573,8 @@ def update_readme():
     if "<!-- arcade:template-docs -->" in text and is_profile_repo:
         text = (ROOT / "README.profile.md").read_text(encoding="utf-8").replace("YOUR-USERNAME", USER)
         print("first run: README.md replaced with README.profile.md")
+        import shutil
+        shutil.rmtree(ROOT / "demo", ignore_errors=True)   # the template author's demo isn't yours
     for key, body in readme_blocks().items():
         start, end = f"<!-- arcade:{key}:start -->", f"<!-- arcade:{key}:end -->"
         if start in text and end in text:

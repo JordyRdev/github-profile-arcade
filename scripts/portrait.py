@@ -53,7 +53,14 @@ def to_ascii(photo, remove_background=False, invert=False):
 def update(root, portrait_cfg):
     """Regenerate assets/ascii.txt if the configured photo changed. Returns True if updated."""
     photo = portrait_cfg.get("photo")
-    if not photo:
+    stamp = Path(root) / "assets" / ".portrait-hash"
+    if not photo:   # no photo: use the default art
+        default = Path(__file__).resolve().parent / "default_ascii.txt"
+        if default.exists() and (not stamp.exists() or stamp.read_text().strip() != "default"):
+            (Path(root) / "assets" / "ascii.txt").write_text(default.read_text())
+            stamp.write_text("default\n")
+            print("portrait: using the default art")
+            return True
         return False
     path = Path(root) / photo
     if not path.exists():
@@ -61,7 +68,6 @@ def update(root, portrait_cfg):
         return False
     opts = f"{bool(portrait_cfg.get('remove_background'))}{bool(portrait_cfg.get('invert'))}"
     digest = hashlib.sha256(path.read_bytes() + opts.encode()).hexdigest()
-    stamp = Path(root) / "assets" / ".portrait-hash"
     if stamp.exists() and stamp.read_text().strip() == digest:
         return False
     art = to_ascii(path, bool(portrait_cfg.get("remove_background")), bool(portrait_cfg.get("invert")))

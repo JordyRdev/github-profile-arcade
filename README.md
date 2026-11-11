@@ -14,14 +14,14 @@ Everything is plain SVG, so it works in a GitHub README with no external service
 > **Live demo:** the profile below is built from this repo's own `profile.yml` by the same workflow you'll get.
 
 <!-- arcade:header:start -->
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/typing-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/typing-light.svg"><img alt="Full-stack developer · I build fast, tested, accessible web apps · Open to new opportunities" src="assets/typing-dark.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/typing-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/typing-light.svg"><img alt="Senior QA &amp; Data Quality Consultant · 15+ years experience in BI, data quality, and test automation · Open to freelance work" src="assets/typing-dark.svg" width="100%"></picture>
 
 <a href="https://github.com/JordyRdev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-light.svg"><img alt="JordyRdev profile card" src="assets/card-dark.svg" width="100%"></picture></a>
 
 <p>
   <a href="https://github.com/JordyRdev?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-0-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/btn-0-light.svg"><img alt="PROJECTS" src="assets/btn-0-dark.svg" width="32%"></picture></a>
-  <a href="https://example.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-1-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/btn-1-light.svg"><img alt="WEBSITE" src="assets/btn-1-dark.svg" width="32%"></picture></a>
-  <a href="mailto:alex@example.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-2-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/btn-2-light.svg"><img alt="EMAIL" src="assets/btn-2-dark.svg" width="32%"></picture></a>
+  <a href="https://www.linkedin.com/in/jordyr86/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-1-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/btn-1-light.svg"><img alt="LINKEDIN" src="assets/btn-1-dark.svg" width="32%"></picture></a>
+  <a href="mailto:jordydev@proton.me"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-2-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/btn-2-light.svg"><img alt="EMAIL" src="assets/btn-2-dark.svg" width="32%"></picture></a>
 </p>
 
 <a href="https://github.com/JordyRdev?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tests-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/tests-light.svg"><img alt="Latest CI results across my repositories" src="assets/tests-dark.svg" width="100%"></picture></a>
