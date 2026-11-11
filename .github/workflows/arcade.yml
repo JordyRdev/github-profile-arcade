@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - "profile.yml"
+      - "demo/**"
       - "assets/photo*"
       - "assets/*.jpg"
       - "assets/*.jpeg"
@@ -35,7 +36,7 @@ jobs:
         run: |
           pip install -r requirements.txt
           # background removal for the portrait, only when it's switched on
-          if python -c "import yaml,sys; p=(yaml.safe_load(open('profile.yml')) or {}).get('portrait') or {}; sys.exit(0 if p.get('photo') and p.get('remove_background') else 1)"; then
+          if python -c "import yaml,sys,os; ps=[(yaml.safe_load(open(f)) or {}).get('portrait') or {} for f in ('profile.yml','demo/profile.yml') if os.path.exists(f)]; sys.exit(0 if any(p.get('photo') and p.get('remove_background') for p in ps) else 1)"; then
             pip install rembg onnxruntime
           fi
 

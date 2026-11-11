@@ -1,0 +1,64 @@
+# Live demo of the template, built only in JordyRdev/github-profile-arcade.
+# Your own copy uses profile.yml in the repo root; this folder is removed on your first build.
+
+username: "JordyRdev"
+prompt: "jordy@rdev"
+
+header:
+  taglines:
+    - "Senior QA & Data Quality Consultant"
+    - "15+ years experience in BI, data quality, and test automation"
+    - "Open to freelance work"
+
+portrait:
+  photo: "demo/photo.jpg"
+  remove_background: true
+  invert: false
+
+card:
+  uptime_since: 2011-01-01
+  lines:
+    - OS: "Windows, Linux, Docker"
+    - Uptime: "{uptime}"
+    - Host: "Freelance / Contract · Remote"
+    - Kernel: "Senior QA & Data Quality Consultant"
+    - IDE: "VS Code, Power BI Desktop"
+    - ""
+    - Languages.Programming: "TypeScript, Python, SQL, JS"
+    - Languages.Testing: "Playwright, CodeceptJS, Cypress"
+    - Languages.Real: "Dutch, English"
+    - ""
+    - Focus.QA: "LLM evals, API, performance, CI gates"
+    - Focus.Data: "Power BI, Fabric, ADF, Synapse"
+    - Certs: "PL-300, ISTQB Adv TA, CTFL, TMap"
+    - ""
+    - section: Contact
+    - Email: "jordydev@proton.me"
+    - GitHub: "JordyRdev"
+    - LinkedIn: "jordyr86"
+    - Status: "Open to work · remote · relocation"
+    - ""
+    - section: GitHub Stats
+    - stats
+
+buttons:
+  - label: Projects
+    icon: folder
+    url: "https://github.com/JordyRdev?tab=repositories"
+  - label: LinkedIn
+    icon: briefcase
+    url: "https://www.linkedin.com/in/jordyr86/"
+  - label: Email
+    icon: mail
+    url: "mailto:jordydev@proton.me"
+
+race:
+  plate: "JRDEV"
+  signs: [TEST, PASS, DEPLOY, QA, "SHIP IT", DATA, "CI/CD", "100%"]
+
+show:
+  header: true
+  card: true
+  buttons: true
+  tests: true
+  race: true
