@@ -95,11 +95,11 @@ RAMP = " .'`^,:;-~=+*xjk%#&$@"
 THEMES = {
     "dark": dict(bg="#161b22", border="#30363d", text="#c9d1d9", key="#ffa657",
                  value="#a5d6ff", dots="#616e7f", add="#3fb950", dele="#f85149",
-                 art="#c9d1d9", accent="#ffa657", typing="#c9d1d9",
+                 art="#c9d1d9", accent="#ffa657", typing="#c9d1d9", page="#161b22",
                  btn_bg="#161b22", btn_border="#30363d", btn_icon="#ffa657", btn_text="#c9d1d9", btn_bar="#ffa657"),
     "light": dict(bg="#f6f8fa", border="#d0d7de", text="#24292f", key="#e8590c",
                   value="#0a3069", dots="#c2cfde", add="#1a7f37", dele="#cf222e",
-                  art="#24292f", accent="#e8590c", typing="#ffa657",
+                  art="#24292f", accent="#e8590c", typing="#ffa657", page="#f6f8fa",
                   btn_bg="#ffffff", btn_border="#ffa657", btn_icon="#e8590c", btn_text="#24292f", btn_bar="#ffa657"),
 }
 
@@ -496,6 +496,7 @@ def render_typing(theme):
     cycle = sum(a + hold_t + b + gap_t for _, _, a, b in spans)
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
            f'font-family="Consolas,\'DejaVu Sans Mono\',monospace" font-size="{size}">',
+           f'<rect width="{w}" height="{h}" rx="10" fill="{t["page"]}"/>',   # own bar: the cover always matches
            f'<text x="20" y="30" fill="{t["accent"]}">&gt;</text>']
     start = 0.0
     for i, (ln, n, a, b) in enumerate(spans):
@@ -511,13 +512,8 @@ def render_typing(theme):
             times.append((t_hold_end + (n - k) * (b / n)) / cycle); widths.append(k * cw)
         times.append(1.0); widths.append(0.0)
         kt = ";".join(f"{v:.4f}" for v in times)
-        vals = ";".join(f"{v:.1f}" for v in widths)
-        out.append(f'<clipPath id="c{i}"><rect x="{x0:.1f}" y="0" height="{h}" width="0">'
-                   f'<animate attributeName="width" dur="{cycle:.2f}s" repeatCount="indefinite" '
-                   f'calcMode="discrete" keyTimes="{kt}" values="{vals}"/></rect></clipPath>')
-        out.append(f'<text x="{x0:.1f}" y="30" fill="{t["typing"]}" font-weight="{'bold' if theme == 'light' else 'normal'}" textLength="{n * cw:.1f}" '
-                   f'lengthAdjust="spacingAndGlyphs" clip-path="url(#c{i})" xml:space="preserve">{escape(ln)}</text>')
-        # cursor follows the active line and is only visible while it's active
+        cx = ";".join(f"{x0 + v:.1f}" for v in widths)
+        # each line is only visible during its own slot (works in every browser, so lines never overlap)
         end = start + a + hold_t + b + gap_t
         ot, ov = [0.0], [1 if start == 0 else 0]
         if start > 0:
@@ -526,12 +522,20 @@ def render_typing(theme):
             ot.append(end / cycle); ov.append(0)
         okt = ";".join(f"{v:.4f}" for v in ot)
         ovals = ";".join(str(v) for v in ov)
-        cx = ";".join(f"{x0 + v:.1f}" for v in widths)
-        out.append(f'<rect y="10" width="{cw * 0.6:.1f}" height="26" fill="{t["accent"]}" x="{x0:.1f}" opacity="0">'
+        visible = (f'<animate attributeName="opacity" dur="{cycle:.2f}s" repeatCount="indefinite" '
+                   f'calcMode="discrete" keyTimes="{okt}" values="{ovals}"/>')
+        weight = "bold" if theme == "light" else "normal"
+        # typing effect: a page-coloured block slides right to reveal the text, then back to erase it.
+        # (Animating a plain rect's x works in Safari/iOS too; animating a clipPath does not.)
+        out.append(f'<g opacity="{ov[0]}">{visible}'
+                   f'<text x="{x0:.1f}" y="30" fill="{t["typing"]}" font-weight="{weight}" textLength="{n * cw:.1f}" '
+                   f'lengthAdjust="spacingAndGlyphs" xml:space="preserve">{escape(ln)}</text>'
+                   f'<rect y="2" width="{w}" height="{h - 4}" fill="{t["page"]}" x="{x0:.1f}">'
                    f'<animate attributeName="x" dur="{cycle:.2f}s" repeatCount="indefinite" calcMode="discrete" '
-                   f'keyTimes="{kt}" values="{cx}"/>'
-                   f'<animate attributeName="opacity" dur="{cycle:.2f}s" repeatCount="indefinite" calcMode="discrete" '
-                   f'keyTimes="{okt}" values="{ovals}"/></rect>')
+                   f'keyTimes="{kt}" values="{cx}"/></rect>'
+                   f'<rect y="10" width="{cw * 0.6:.1f}" height="26" fill="{t["accent"]}" x="{x0:.1f}">'
+                   f'<animate attributeName="x" dur="{cycle:.2f}s" repeatCount="indefinite" calcMode="discrete" '
+                   f'keyTimes="{kt}" values="{cx}"/></rect></g>')
         start += a + hold_t + b + gap_t
     out.append("</svg>")
     return "\n".join(out)
