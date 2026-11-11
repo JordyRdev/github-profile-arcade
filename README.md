@@ -81,4 +81,4 @@ GH_TOKEN=$(gh auth token) python scripts/build.py --fetch   # with fresh stats
 
 ## Credits
 
-The neofetch card idea comes from [Andrew6rant](https://github.com/Andrew6rant/Andrew6rant)'s profile. Built by [JordyRdev](https://github.com/JordyRdev). MIT licensed: fork it, remix it, make it yours.
+Built by [JordyRdev](https://github.com/JordyRdev). MIT licensed: fork it, remix it, make it yours.
