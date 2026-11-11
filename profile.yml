@@ -1,0 +1,79 @@
+# ╔══════════════════════════════════════════════════════════════════╗
+# ║  GitHub Profile Arcade: edit this file, push, and your profile   ║
+# ║  rebuilds itself. Everything personal lives here.                ║
+# ╚══════════════════════════════════════════════════════════════════╝
+
+# Your GitHub username. Leave empty to use the owner of this repository.
+username: ""
+
+# The "user@host" line at the top of the card.
+prompt: "alex@dev"
+
+# Typing animation above the card: one line at a time.
+header:
+  taglines:
+    - "Full-stack developer"
+    - "I build fast, tested, accessible web apps"
+    - "Open to new opportunities"
+
+# Your photo becomes the ASCII portrait on the left of the card.
+# Add a photo (jpg/png) to the repo and point to it here. Leave empty to keep the default art.
+portrait:
+  photo: ""                 # e.g. assets/photo.jpg  (a tightly cropped headshot works best)
+  remove_background: true   # cut yourself out of the background (slower first run)
+  invert: false             # flip light/dark if the portrait looks like a negative
+
+# The neofetch-style card. Each line is one of:
+#   - Key: value          a dotted "Key: ........ value" line (use dots in keys, e.g. Languages.Real)
+#   - ""                  an empty line
+#   - section: Title      a section header
+#   - stats               your live GitHub stats (repos, stars, commits, followers, lines of code)
+# Write {uptime} anywhere to show the time since uptime_since.
+card:
+  uptime_since: 2016-09-01  # when you started coding (or your birthday, if you like)
+  lines:
+    - OS: "macOS, Linux"
+    - Uptime: "{uptime}"
+    - Host: "Remote · Europe"
+    - Kernel: "Full-stack Developer"
+    - IDE: "VS Code, Neovim"
+    - ""
+    - Languages.Programming: "TypeScript, Go, Python"
+    - Languages.Web: "React, Next.js, Tailwind"
+    - Languages.Real: "English, Spanish"
+    - ""
+    - Hobbies.Software: "Open source, game jams"
+    - Hobbies.Hardware: "Mechanical keyboards"
+    - ""
+    - section: Contact
+    - Email: "alex@example.com"
+    - Website: "example.com"
+    - ""
+    - section: GitHub Stats
+    - stats
+
+# Buttons under the card (1-4 work best).
+# icon: folder, briefcase, mail, globe, file, pen, chat, code
+buttons:
+  - label: Projects
+    icon: folder
+    url: "https://github.com/YOUR-USERNAME?tab=repositories"
+  - label: Website
+    icon: globe
+    url: "https://example.com"
+  - label: Email
+    icon: mail
+    url: "mailto:alex@example.com"
+
+# The arcade race through your contribution graph.
+race:
+  plate: "ALEX"             # text on the car's number plate (max 7 characters)
+  signs: [DEPLOY, "SHIP IT", "100%", MERGE, PASS, "CI/CD", CODE, COMMIT]   # neon signs (night mode)
+
+# Turn parts on or off.
+show:
+  header: true
+  card: true
+  buttons: true
+  tests: true               # latest CI result of each of your public repos
+  race: true
