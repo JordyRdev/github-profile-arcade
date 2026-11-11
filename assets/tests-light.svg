@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" font-family="ConsolasFallback,Consolas,'DejaVu Sans Mono',monospace" width="984px" height="160px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" font-family="ConsolasFallback,Consolas,'DejaVu Sans Mono',monospace" width="984px" height="220px" font-size="16px">
 <style>
 @font-face{src:local('Consolas'),local('Consolas Bold');font-family:'ConsolasFallback';font-display:swap;-webkit-size-adjust:109%;size-adjust:109%;}
 .text{fill:#24292f;}
@@ -9,9 +9,16 @@
 .dele{fill:#cf222e;}
 .accent{fill:#e8590c;}
 </style>
-<rect width="984px" height="160px" fill="#f6f8fa" rx="15"/>
-<text x="20.0" y="35" class="text"><tspan class="accent">$ run-tests --owner JordyRdev</tspan><tspan class="text">                                                                     </tspan></text>
-<text x="20.0" y="55" class="text"><tspan class="text">Running 0 checks across 0 repositories</tspan></text>
-<text x="20.0" y="95" class="text"><tspan class="dots">  no CI runs found yet</tspan></text>
-<text x="20.0" y="135" class="text"><tspan class="add">0 passed</tspan><tspan class="dots"> · </tspan><tspan class="dots">0 failed</tspan><tspan class="dots"> · </tspan><tspan class="dots">0 skipped</tspan><tspan class="text">                                                        </tspan><tspan class="dots">Total: 0s</tspan></text>
+<rect width="984px" height="220px" fill="#f6f8fa" rx="15"/>
+<text x="20.0" y="35" class="text"><tspan class="accent">$ run-tests --owner JordyRdev</tspan><tspan class="text">                                                 </tspan><tspan class="dots">2026-11-11 08:47 UTC</tspan></text>
+<text x="20.0" y="55" class="text"><tspan class="text">Running 4 checks across 3 repositories</tspan></text>
+<text x="39.3" y="95" class="add">✓</text>
+<text x="58.5" y="95" class="text"><tspan class="value">llm-eval-security-tests</tspan><tspan class="dots"> › </tspan><tspan class="text">eval-live</tspan><tspan class="dots"> ........................................ </tspan><tspan class="add"> passed</tspan><tspan class="dots">  20m 50s</tspan></text>
+<text x="39.3" y="115" class="add">✓</text>
+<text x="58.5" y="115" class="text"><tspan class="value">llm-eval-security-tests</tspan><tspan class="dots"> › </tspan><tspan class="text">ci</tspan><tspan class="dots"> ............................................... </tspan><tspan class="add"> passed</tspan><tspan class="dots">   7m 51s</tspan></text>
+<text x="39.3" y="135" class="add">✓</text>
+<text x="58.5" y="135" class="text"><tspan class="value">playwright-typescript-portfolio</tspan><tspan class="dots"> › </tspan><tspan class="text">CI</tspan><tspan class="dots"> ....................................... </tspan><tspan class="add"> passed</tspan><tspan class="dots">   1m 48s</tspan></text>
+<text x="39.3" y="155" class="add">✓</text>
+<text x="58.5" y="155" class="text"><tspan class="value">powerbi-playwright-dashboard</tspan><tspan class="dots"> › </tspan><tspan class="text">CI</tspan><tspan class="dots"> .......................................... </tspan><tspan class="add"> passed</tspan><tspan class="dots">   3m 07s</tspan></text>
+<text x="20.0" y="195" class="text"><tspan class="add">4 passed</tspan><tspan class="dots"> · </tspan><tspan class="dots">0 failed</tspan><tspan class="dots"> · </tspan><tspan class="dots">0 skipped</tspan><tspan class="text">                                                   </tspan><tspan class="dots">Total: 33m 36s</tspan></text>
 </svg>
