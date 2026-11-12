@@ -1,32 +1,46 @@
 {
   "followers": 1,
   "contributed": 5,
-  "repos": 13,
+  "repos": 14,
   "stars": 0,
-  "commits": 161,
-  "additions": 198316,
-  "deletions": 23920,
+  "commits": 168,
+  "additions": 202456,
+  "deletions": 24600,
   "tests": [
     {
       "repo": "github-profile-arcade",
       "workflow": "Build profile",
       "conclusion": "success",
-      "seconds": 39,
-      "finished": "2026-11-11T08:55:10Z"
-    },
-    {
-      "repo": "llm-eval-security-tests",
-      "workflow": "eval-live",
-      "conclusion": "success",
-      "seconds": 1250,
-      "finished": "2026-11-09T13:17:03Z"
+      "seconds": 45,
+      "finished": "2026-11-11T09:54:03Z"
     },
     {
       "repo": "llm-eval-security-tests",
       "workflow": "ci",
       "conclusion": "success",
-      "seconds": 471,
-      "finished": "2026-10-29T06:54:49Z"
+      "seconds": 360,
+      "finished": "2026-11-12T11:29:52Z"
+    },
+    {
+      "repo": "llm-eval-security-tests",
+      "workflow": "eval-live",
+      "conclusion": "success",
+      "seconds": 786,
+      "finished": "2026-11-12T09:35:56Z"
+    },
+    {
+      "repo": "llm-redteam-kit",
+      "workflow": "Red team",
+      "conclusion": "success",
+      "seconds": 38,
+      "finished": "2026-11-12T11:29:19Z"
+    },
+    {
+      "repo": "llm-redteam-kit",
+      "workflow": "CI",
+      "conclusion": "success",
+      "seconds": 12,
+      "finished": "2026-11-12T11:28:53Z"
     },
     {
       "repo": "playwright-typescript-portfolio",
@@ -39,12 +53,12 @@
       "repo": "powerbi-playwright-dashboard",
       "workflow": "CI",
       "conclusion": "success",
-      "seconds": 187,
-      "finished": "2026-11-11T08:31:11Z"
+      "seconds": 248,
+      "finished": "2026-11-11T23:34:29Z"
     }
   ],
   "calendar": {
-    "total": 262,
+    "total": 277,
     "start": "2025-11-09",
     "weeks": [
       [
@@ -1953,7 +1967,7 @@
         [
           3,
           25,
-          4
+          3
         ],
         [
           4,
@@ -1985,15 +1999,20 @@
         [
           2,
           25,
-          4
+          3
         ],
         [
           3,
-          25,
+          34,
           4
+        ],
+        [
+          4,
+          6,
+          1
         ]
       ]
     ]
   },
-  "updated": "2026-11-11T09:53:59+00:00"
+  "updated": "2026-11-12T13:52:09+00:00"
 }
