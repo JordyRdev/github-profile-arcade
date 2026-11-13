@@ -55,7 +55,7 @@ text,tspan{white-space:pre;}
 <text x="445" y="30" class="text">
 <tspan x="445" y="30"><tspan class="accent">jordy@rdev</tspan><tspan class="text"> ———————————————————————————————————————————————</tspan></tspan>
 <tspan x="445" y="50"><tspan class="dots">. </tspan><tspan class="key">OS</tspan><tspan class="text">:</tspan><tspan class="dots"> ............................. </tspan><tspan class="value">Windows, Linux, Docker</tspan></tspan>
-<tspan x="445" y="70"><tspan class="dots">. </tspan><tspan class="key">Uptime</tspan><tspan class="text">:</tspan><tspan class="dots"> ................... </tspan><tspan class="value">15 years, 10 months, 11 days</tspan></tspan>
+<tspan x="445" y="70"><tspan class="dots">. </tspan><tspan class="key">Uptime</tspan><tspan class="text">:</tspan><tspan class="dots"> ................... </tspan><tspan class="value">15 years, 10 months, 12 days</tspan></tspan>
 <tspan x="445" y="90"><tspan class="dots">. </tspan><tspan class="key">Host</tspan><tspan class="text">:</tspan><tspan class="dots"> .................... </tspan><tspan class="value">Freelance / Contract · Remote</tspan></tspan>
 <tspan x="445" y="110"><tspan class="dots">. </tspan><tspan class="key">Kernel</tspan><tspan class="text">:</tspan><tspan class="dots"> ............ </tspan><tspan class="value">Senior QA &amp; Data Quality Consultant</tspan></tspan>
 <tspan x="445" y="130"><tspan class="dots">. </tspan><tspan class="key">IDE</tspan><tspan class="text">:</tspan><tspan class="dots"> ......................... </tspan><tspan class="value">VS Code, Power BI Desktop</tspan></tspan>
