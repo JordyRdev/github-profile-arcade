@@ -11,8 +11,8 @@
       "repo": "github-profile-arcade",
       "workflow": "Build profile",
       "conclusion": "success",
-      "seconds": 53,
-      "finished": "2026-11-13T13:15:07Z"
+      "seconds": 42,
+      "finished": "2026-11-14T12:19:50Z"
     },
     {
       "repo": "llm-eval-security-tests",
@@ -32,8 +32,8 @@
       "repo": "llm-redteam-kit",
       "workflow": "Red team",
       "conclusion": "success",
-      "seconds": 33,
-      "finished": "2026-11-14T10:23:08Z"
+      "seconds": 35,
+      "finished": "2026-11-15T10:50:13Z"
     },
     {
       "repo": "llm-redteam-kit",
@@ -53,51 +53,14 @@
       "repo": "powerbi-playwright-dashboard",
       "workflow": "CI",
       "conclusion": "success",
-      "seconds": 281,
-      "finished": "2026-11-13T22:47:12Z"
+      "seconds": 239,
+      "finished": "2026-11-14T21:39:20Z"
     }
   ],
   "calendar": {
     "total": 277,
-    "start": "2025-11-09",
+    "start": "2025-11-16",
     "weeks": [
-      [
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          2,
-          0,
-          0
-        ],
-        [
-          3,
-          0,
-          0
-        ],
-        [
-          4,
-          0,
-          0
-        ],
-        [
-          5,
-          0,
-          0
-        ],
-        [
-          6,
-          0,
-          0
-        ]
-      ],
       [
         [
           0,
@@ -2021,8 +1984,15 @@
           0,
           0
         ]
+      ],
+      [
+        [
+          0,
+          0,
+          0
+        ]
       ]
     ]
   },
-  "updated": "2026-11-14T12:19:46+00:00"
+  "updated": "2026-11-15T12:51:02+00:00"
 }
