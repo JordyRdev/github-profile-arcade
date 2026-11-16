@@ -12,7 +12,14 @@
       "workflow": "Build profile",
       "conclusion": "success",
       "seconds": 42,
-      "finished": "2026-11-14T12:19:50Z"
+      "finished": "2026-11-15T12:51:06Z"
+    },
+    {
+      "repo": "llm-eval-security-tests",
+      "workflow": "eval-live",
+      "conclusion": "success",
+      "seconds": 1276,
+      "finished": "2026-11-16T13:10:30Z"
     },
     {
       "repo": "llm-eval-security-tests",
@@ -22,18 +29,11 @@
       "finished": "2026-11-12T11:29:52Z"
     },
     {
-      "repo": "llm-eval-security-tests",
-      "workflow": "eval-live",
-      "conclusion": "success",
-      "seconds": 786,
-      "finished": "2026-11-12T09:35:56Z"
-    },
-    {
       "repo": "llm-redteam-kit",
       "workflow": "Red team",
       "conclusion": "success",
       "seconds": 35,
-      "finished": "2026-11-15T10:50:13Z"
+      "finished": "2026-11-16T11:13:12Z"
     },
     {
       "repo": "llm-redteam-kit",
@@ -53,8 +53,8 @@
       "repo": "powerbi-playwright-dashboard",
       "workflow": "CI",
       "conclusion": "success",
-      "seconds": 239,
-      "finished": "2026-11-14T21:39:20Z"
+      "seconds": 232,
+      "finished": "2026-11-15T21:57:37Z"
     }
   ],
   "calendar": {
@@ -1990,9 +1990,14 @@
           0,
           0,
           0
+        ],
+        [
+          1,
+          0,
+          0
         ]
       ]
     ]
   },
-  "updated": "2026-11-15T12:51:02+00:00"
+  "updated": "2026-11-16T13:48:50+00:00"
 }
