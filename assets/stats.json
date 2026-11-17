@@ -1,7 +1,7 @@
 {
   "followers": 1,
-  "contributed": 5,
-  "repos": 14,
+  "contributed": 6,
+  "repos": 15,
   "stars": 0,
   "commits": 168,
   "additions": 202456,
@@ -11,8 +11,8 @@
       "repo": "github-profile-arcade",
       "workflow": "Build profile",
       "conclusion": "success",
-      "seconds": 42,
-      "finished": "2026-11-15T12:51:06Z"
+      "seconds": 57,
+      "finished": "2026-11-16T13:48:56Z"
     },
     {
       "repo": "llm-eval-security-tests",
@@ -32,8 +32,8 @@
       "repo": "llm-redteam-kit",
       "workflow": "Red team",
       "conclusion": "success",
-      "seconds": 35,
-      "finished": "2026-11-16T11:13:12Z"
+      "seconds": 42,
+      "finished": "2026-11-17T11:49:30Z"
     },
     {
       "repo": "llm-redteam-kit",
@@ -53,12 +53,12 @@
       "repo": "powerbi-playwright-dashboard",
       "workflow": "CI",
       "conclusion": "success",
-      "seconds": 232,
-      "finished": "2026-11-15T21:57:37Z"
+      "seconds": 287,
+      "finished": "2026-11-17T00:56:58Z"
     }
   ],
   "calendar": {
-    "total": 277,
+    "total": 279,
     "start": "2025-11-16",
     "weeks": [
       [
@@ -1993,11 +1993,16 @@
         ],
         [
           1,
+          2,
+          1
+        ],
+        [
+          2,
           0,
           0
         ]
       ]
     ]
   },
-  "updated": "2026-11-16T13:48:50+00:00"
+  "updated": "2026-11-17T14:41:24+00:00"
 }
