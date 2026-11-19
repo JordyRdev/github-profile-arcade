@@ -1,18 +1,18 @@
 {
   "followers": 1,
   "contributed": 6,
-  "repos": 15,
+  "repos": 16,
   "stars": 0,
-  "commits": 168,
-  "additions": 202456,
-  "deletions": 24600,
+  "commits": 173,
+  "additions": 211655,
+  "deletions": 24607,
   "tests": [
     {
       "repo": "github-profile-arcade",
       "workflow": "Build profile",
       "conclusion": "success",
-      "seconds": 52,
-      "finished": "2026-11-17T14:41:29Z"
+      "seconds": 51,
+      "finished": "2026-11-18T14:19:01Z"
     },
     {
       "repo": "llm-eval-security-tests",
@@ -32,8 +32,8 @@
       "repo": "llm-redteam-kit",
       "workflow": "Red team",
       "conclusion": "success",
-      "seconds": 44,
-      "finished": "2026-11-18T11:38:51Z"
+      "seconds": 37,
+      "finished": "2026-11-19T11:37:18Z"
     },
     {
       "repo": "llm-redteam-kit",
@@ -53,12 +53,26 @@
       "repo": "powerbi-playwright-dashboard",
       "workflow": "CI",
       "conclusion": "success",
-      "seconds": 266,
-      "finished": "2026-11-17T23:57:01Z"
+      "seconds": 272,
+      "finished": "2026-11-18T23:30:22Z"
+    },
+    {
+      "repo": "powerplatform-data-issue-desk",
+      "workflow": "Build and deploy",
+      "conclusion": "success",
+      "seconds": 351,
+      "finished": "2026-11-18T20:09:34Z"
+    },
+    {
+      "repo": "powerplatform-data-issue-desk",
+      "workflow": "Export solution from dev",
+      "conclusion": "success",
+      "seconds": 143,
+      "finished": "2026-11-18T20:02:14Z"
     }
   ],
   "calendar": {
-    "total": 281,
+    "total": 285,
     "start": "2025-11-16",
     "weeks": [
       [
@@ -2003,11 +2017,16 @@
         ],
         [
           3,
-          2,
+          6,
           1
+        ],
+        [
+          4,
+          0,
+          0
         ]
       ]
     ]
   },
-  "updated": "2026-11-18T14:18:55+00:00"
+  "updated": "2026-11-19T14:32:13+00:00"
 }
