@@ -1,18 +1,25 @@
 {
   "followers": 1,
-  "contributed": 6,
+  "contributed": 7,
   "repos": 16,
   "stars": 0,
-  "commits": 173,
-  "additions": 211655,
-  "deletions": 24607,
+  "commits": 188,
+  "additions": 213929,
+  "deletions": 26708,
   "tests": [
     {
       "repo": "github-profile-arcade",
       "workflow": "Build profile",
       "conclusion": "success",
-      "seconds": 57,
-      "finished": "2026-11-23T16:11:59Z"
+      "seconds": 54,
+      "finished": "2026-11-24T16:00:12Z"
+    },
+    {
+      "repo": "llm-eval-security-tests",
+      "workflow": "ci",
+      "conclusion": "success",
+      "seconds": 344,
+      "finished": "2026-11-25T08:37:53Z"
     },
     {
       "repo": "llm-eval-security-tests",
@@ -22,39 +29,32 @@
       "finished": "2026-11-23T15:10:14Z"
     },
     {
-      "repo": "llm-eval-security-tests",
-      "workflow": "ci",
-      "conclusion": "success",
-      "seconds": 360,
-      "finished": "2026-11-12T11:29:52Z"
-    },
-    {
       "repo": "llm-redteam-kit",
       "workflow": "Red team",
       "conclusion": "success",
       "seconds": 36,
-      "finished": "2026-11-24T13:40:08Z"
+      "finished": "2026-11-25T12:50:16Z"
     },
     {
       "repo": "llm-redteam-kit",
       "workflow": "CI",
       "conclusion": "success",
-      "seconds": 12,
-      "finished": "2026-11-12T11:28:53Z"
+      "seconds": 17,
+      "finished": "2026-11-25T08:32:32Z"
     },
     {
       "repo": "playwright-typescript-portfolio",
       "workflow": "CI",
-      "conclusion": "success",
-      "seconds": 108,
-      "finished": "2026-10-29T06:33:49Z"
+      "conclusion": "failure",
+      "seconds": 101,
+      "finished": "2026-11-25T08:41:23Z"
     },
     {
       "repo": "powerbi-playwright-dashboard",
       "workflow": "CI",
       "conclusion": "success",
-      "seconds": 284,
-      "finished": "2026-11-24T03:27:08Z"
+      "seconds": 490,
+      "finished": "2026-11-25T08:48:40Z"
     },
     {
       "repo": "powerplatform-data-issue-desk",
@@ -72,7 +72,7 @@
     }
   ],
   "calendar": {
-    "total": 299,
+    "total": 413,
     "start": "2025-11-23",
     "weeks": [
       [
@@ -1822,17 +1822,17 @@
         ],
         [
           1,
-          19,
-          3
+          33,
+          4
         ],
         [
           2,
-          22,
-          3
+          38,
+          4
         ],
         [
           3,
-          9,
+          13,
           2
         ],
         [
@@ -1874,8 +1874,8 @@
         ],
         [
           4,
-          7,
-          1
+          15,
+          2
         ],
         [
           5,
@@ -1891,7 +1891,7 @@
       [
         [
           0,
-          2,
+          4,
           1
         ],
         [
@@ -1901,8 +1901,8 @@
         ],
         [
           2,
-          26,
-          4
+          27,
+          3
         ],
         [
           3,
@@ -1922,7 +1922,7 @@
         [
           6,
           18,
-          3
+          2
         ]
       ],
       [
@@ -1938,18 +1938,18 @@
         ],
         [
           2,
-          25,
-          3
+          39,
+          4
         ],
         [
           3,
-          34,
+          51,
           4
         ],
         [
           4,
-          6,
-          1
+          10,
+          2
         ],
         [
           5,
@@ -1980,8 +1980,8 @@
         ],
         [
           3,
-          6,
-          1
+          29,
+          3
         ],
         [
           4,
@@ -2014,9 +2014,14 @@
           2,
           0,
           0
+        ],
+        [
+          3,
+          11,
+          2
         ]
       ]
     ]
   },
-  "updated": "2026-11-24T16:00:06+00:00"
+  "updated": "2026-11-25T15:48:27+00:00"
 }
