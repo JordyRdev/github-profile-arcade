@@ -32,8 +32,8 @@
       "repo": "llm-redteam-kit",
       "workflow": "Red team",
       "conclusion": "success",
-      "seconds": 36,
-      "finished": "2026-11-25T12:50:16Z"
+      "seconds": 41,
+      "finished": "2026-11-26T12:29:25Z"
     },
     {
       "repo": "llm-redteam-kit",
@@ -53,8 +53,8 @@
       "repo": "powerbi-playwright-dashboard",
       "workflow": "CI",
       "conclusion": "success",
-      "seconds": 490,
-      "finished": "2026-11-25T08:48:40Z"
+      "seconds": 273,
+      "finished": "2026-11-26T01:06:21Z"
     },
     {
       "repo": "powerplatform-data-issue-desk",
@@ -2019,9 +2019,14 @@
           3,
           11,
           2
+        ],
+        [
+          4,
+          0,
+          0
         ]
       ]
     ]
   },
-  "updated": "2026-11-25T15:48:27+00:00"
+  "updated": "2026-11-26T15:28:47+00:00"
 }
